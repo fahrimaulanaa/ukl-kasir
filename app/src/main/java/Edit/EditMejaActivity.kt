@@ -1,4 +1,4 @@
-package com.example.uklkasir
+package Edit
 
 
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import com.example.uklcashierapp.R
+import com.example.uklkasir.KasirDatabase
 
 class EditMejaActivity : AppCompatActivity() {
     lateinit var inputNama: EditText

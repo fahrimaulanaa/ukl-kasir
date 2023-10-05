@@ -1,4 +1,4 @@
-package com.example.uklkasir
+package Meja
 
 
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,8 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import com.example.uklcashierapp.R
+import com.example.uklkasir.KasirDatabase
+import com.example.uklkasir.Meja
 
 class AddMejaActivity : AppCompatActivity() {
     lateinit var inputNama: TextView

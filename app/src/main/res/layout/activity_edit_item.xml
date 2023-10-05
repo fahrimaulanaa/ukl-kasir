@@ -4,24 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.uklkasir.EditItemActivity"
+    tools:context="Edit.EditItemActivity"
     android:orientation="vertical"
     android:padding="32dp">
 
-    <EditText
-        android:id="@+id/namaProduk"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nama produk..."
-        android:textSize="24sp" />
-    <EditText
-        android:id="@+id/hargaProduk"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Harga produk..."
         android:layout_marginTop="16dp"
-        android:textSize="24sp"
-        android:inputType="number"/>
+        app:hintEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat">
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/namaProduk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama produk..."
+            android:inputType="text"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:hintEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat">
+
+    <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hargaProduk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Harga produk..."
+            android:inputType="number"/>
+
+</com.google.android.material.textfield.TextInputLayout>
     <Spinner
         android:id="@+id/pilihTipe"
         android:layout_width="match_parent"
@@ -31,8 +50,8 @@
 
     <Button
         android:id="@+id/simpan"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
         android:layout_gravity="center"
         android:text="simpan"
         android:layout_marginTop="16dp"/>

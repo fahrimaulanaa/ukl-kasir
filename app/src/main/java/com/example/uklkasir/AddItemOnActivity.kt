@@ -17,7 +17,6 @@ class AddItemOnDetailActivity : AppCompatActivity() {
     lateinit var recyclerMinuman: RecyclerView
     lateinit var adapterMakanan: ItemAdapter
     lateinit var adapterMinuman: ItemAdapter
-
     lateinit var db: KasirDatabase
     lateinit var checkoutButton: Button
 

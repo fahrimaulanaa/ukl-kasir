@@ -51,11 +51,10 @@ class RegisterActivity : AppCompatActivity() {
     }
     fun initLocalDB(){
         edtName = findViewById(R.id.edtName)
-        selectGender = findViewById(R.id.selectGender)
+        selectGender = findViewById(R.id.spinnerGender)
         edtAddress = findViewById(R.id.edtAddress)
         edtPhone = findViewById(R.id.edtPhone)
         edtEmail = findViewById(R.id.edtEmail)
-        edtUsername = findViewById(R.id.edtUsername)
         edtPassword = findViewById(R.id.edtPassword)
         selectRole = findViewById(R.id.selectRole)
         btnSave = findViewById(R.id.btnSave)

@@ -12,16 +12,16 @@
         android:theme="@style/Theme.UKLkasir"
         tools:targetApi="31">
         <activity
-            android:name="com.example.uklkasir.EditUserActivity"
+            android:name="Edit.EditUserActivity"
             android:exported="false" />
         <activity
             android:name="com.example.uklkasir.ListUserActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.uklkasir.EditItemActivity"
+            android:name="Edit.EditItemActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.uklkasir.EditTransaksiActivity"
+            android:name="Edit.EditTransaksiActivity"
             android:exported="false" />
         <activity
             android:name="com.example.uklkasir.CheckoutActivity"
@@ -39,13 +39,13 @@
             android:name="com.example.uklkasir.ListTransaksiActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.uklkasir.EditMejaActivity"
+            android:name="Edit.EditMejaActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.uklkasir.AddMejaActivity"
+            android:name="Meja.AddMejaActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.uklkasir.ListMejaActivity"
+            android:name="Meja.ListMejaActivity"
             android:exported="false" />
         <activity
             android:name="com.example.uklkasir.AddItemActivity"

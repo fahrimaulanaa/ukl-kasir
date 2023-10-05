@@ -2,6 +2,7 @@ package com.example.uklkasir
 
 
 import Adapter.TransaksiAdapter
+import Edit.EditTransaksiActivity
 import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

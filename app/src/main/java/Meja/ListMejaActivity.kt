@@ -1,7 +1,8 @@
-package com.example.uklkasir
+package Meja
 
 
 import Adapter.MejaAdapter
+import Edit.EditMejaActivity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,6 +11,9 @@ import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.uklcashierapp.R
+import com.example.uklkasir.KasirDatabase
+import com.example.uklkasir.Meja
+import com.example.uklkasir.SwipeGesture
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 class ListMejaActivity : AppCompatActivity() {

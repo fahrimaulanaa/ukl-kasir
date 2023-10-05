@@ -1,9 +1,10 @@
-package com.example.uklkasir
+package Edit
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.*
 import com.example.uklcashierapp.R
+import com.example.uklkasir.KasirDatabase
 
 class EditTransaksiActivity : AppCompatActivity() {
     lateinit var inputNamaPelanggan: EditText

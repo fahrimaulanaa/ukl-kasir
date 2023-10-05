@@ -18,6 +18,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Menu"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textSize="40dp"/>
 
@@ -33,7 +34,7 @@
             android:id="@+id/btnTransaksi"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/ic_dashboard"
+            android:background="@drawable/ic_transaksi"
             android:layout_alignParentRight="true"/>
 
         <ImageButton
@@ -48,7 +49,7 @@
             android:id="@+id/btnUser"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/ic_profile"
+            android:background="@drawable/ic_man"
             android:layout_toLeftOf="@id/btnTransaksi"
             android:layout_marginRight="10dp" />
 
@@ -70,6 +71,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginLeft="16dp"
                 android:text="Makanan"
+                android:textColor="@color/black"
                 android:textSize="28sp"
                 android:textStyle="bold"/>
 
@@ -86,6 +88,7 @@
                 android:layout_marginTop="32dp"
                 android:layout_marginLeft="16dp"
                 android:text="Minuman"
+                android:textColor="@color/black"
                 android:textSize="28sp"
                 android:textStyle="bold"/>
 
@@ -113,11 +116,10 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAddItem"
-        style="@style/Widget.Design.FloatingActionButton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_add"/>
+        android:src="@drawable/ic_addtransaksi"/>
 
 </RelativeLayout>

@@ -9,4 +9,6 @@
         <string name="hello_blank_fragment">Hello blank fragment</string>
         <string name="menu_name">Nama Menu</string>
         <string name="price">Harga</string>
+    <string name="email">Email</string>
+    <string name="password">password\n\n</string>
 </resources>

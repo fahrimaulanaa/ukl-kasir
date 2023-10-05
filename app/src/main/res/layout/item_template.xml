@@ -11,7 +11,7 @@
         android:id="@+id/icon_item"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/ic_home_of_food"
+        android:src="@drawable/ic_food"
         android:layout_centerVertical="true"/>
 
     <TextView
@@ -19,6 +19,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Nama"
+        android:textColor="@color/black"
         android:textStyle="bold"
         android:textSize="25sp"
         android:maxLines="1"
@@ -30,6 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="harga"
+        android:textColor="@color/black"
         android:textSize="22sp"
         android:maxLines="1"
         android:layout_below="@id/namaItem"
@@ -56,6 +58,7 @@
         android:layout_height="50dp"
         android:layout_toLeftOf="@id/buttonAdd"
         android:text="0"
+        android:textColor="@color/black"
         android:textAlignment="center"
         android:textSize="32sp"
         android:layout_centerVertical="true"/>
